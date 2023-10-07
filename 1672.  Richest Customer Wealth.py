@@ -10,3 +10,10 @@ def maximumwealth(x):
     return max_wealth
 
 print(maximumwealth(accounts))
+
+
+###################################################################################
+#                        Leet Code Difficulty Level = Medium                      #  
+#                        Runtime = 30 ms    [ > 77.41%]                           #
+#                        Memory = 13.2 MB   [ > 85.50%]                           #
+###################################################################################  
