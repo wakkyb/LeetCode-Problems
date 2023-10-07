@@ -13,7 +13,7 @@ print(maximumwealth(accounts))
 
 
 ###################################################################################
-#                        Leet Code Difficulty Level = Medium                      #  
+#                        Leet Code Difficulty Level = Easy                        #  
 #                        Runtime = 30 ms    [ > 77.41%]                           #
 #                        Memory = 13.2 MB   [ > 85.50%]                           #
 ###################################################################################  
