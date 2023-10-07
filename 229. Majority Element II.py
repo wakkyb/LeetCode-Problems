@@ -22,3 +22,10 @@ for i in range(1000000):
     pass
 end_time = time.time()
 print(f"The runtime of the code is {(end_time - start_time) * 1000} ms.")
+
+###################################################################################
+#                        Leet Code Difficulty Level = Medium                      #  
+#                        Runtime = 81 ms    [ > 71.47%]                           #
+#                        Memory = 14.4 MB   [ > 66.1%]                            #
+###################################################################################    
+
