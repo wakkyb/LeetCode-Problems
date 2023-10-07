@@ -21,3 +21,9 @@ def running_sum_counter(my_list):
     return sum_list
 
 print(running_sum_counter(run_input))
+
+###################################################################################
+#                        Leet Code Difficulty Level = Easy                        #  
+#                        Runtime = 23 ms    [ > 47.93%]                           #
+#                        Memory = 13.5 MB   [ > 16.55%]                           #
+###################################################################################  
