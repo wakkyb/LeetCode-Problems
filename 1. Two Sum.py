@@ -2,9 +2,6 @@
 # Output ==> indices of the two numbers whose sum = target
 
 
-nums = [2,7,11,15]
-final = 9
-
 def two_sum(nums, target):
     num_to_index = {}
     for i, num in enumerate(nums):
