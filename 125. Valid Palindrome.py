@@ -7,8 +7,9 @@ def isvalidpalindrome(s):
     else:
         return False
 
-sen = "0p"
-
-print(isvalidpalindrome(sen))
-
+###################################################################################
+#                        Leet Code Difficulty Level = Easy                        #  
+#                        Runtime = 28 ms    [ > 69.93%]                           #
+#                        Memory = 15.08 MB   [ > 39.70%]                          #
+###################################################################################   
 
