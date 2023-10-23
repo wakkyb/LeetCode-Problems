@@ -15,12 +15,6 @@ def str_del(big, small):
         for i in range(len(shadowc) - k + 1):
             win = shadowc[i: i + k]
             if win == small:
-               shadowc = shadowc.replace(win, "")
-    #     i -= 2
+               shadowc = shadowc.replace(win, "", 1)
 
     return shadowc
-
-A = "aabbc"
-B = 'ab'
-
-print(str_del(A, B))
