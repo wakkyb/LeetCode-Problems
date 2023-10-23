@@ -1,4 +1,3 @@
-import copy
 # input = two arguments... string and substring
 # can use while loop with a FALSE boolean for substring is not in string i.e. loop works until is not condition is False i.e. the substring is present in the string
 # use a nested for loop that checks if the substring is in string.. and
@@ -6,15 +5,22 @@ import copy
 # maybe or shouldn't use continue after removing the substring....
 
 def str_del(big, small):
-    shadowc = copy.deepcopy(big)
 
     k = len(small)
 
-    while small in shadowc:
+    while small in big:
 
-        for i in range(len(shadowc) - k + 1):
-            win = shadowc[i: i + k]
+        for i in range(len(big) - k + 1):
+            win = big[i: i + k]
             if win == small:
-               shadowc = shadowc.replace(win, "", 1)
+               big = big.replace(win, "", 1)
+        i -= k
 
     return shadowc
+
+
+###################################################################################
+#                        Leet Code Difficulty Level = Easy                        #  
+#                        Runtime = 16 ms    [ > 60.71%]                           #
+#                        Memory = 13.24 MB  [ > 84.52%]                           #
+################################################################################### 
