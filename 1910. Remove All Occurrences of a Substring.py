@@ -16,7 +16,7 @@ def str_del(big, small):
                big = big.replace(win, "", 1)
         i -= k
 
-    return shadowc
+    return big
 
 
 ###################################################################################
