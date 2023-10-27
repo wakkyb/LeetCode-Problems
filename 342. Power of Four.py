@@ -4,7 +4,7 @@ start_t = time.time()
 def isPowerOfFour(n):
     print(n ** (1 / 4))
 
-    if (n**(1/4)) % 1 == 0:
+    if ((-n)**(1/4)) % 1 == 0:
         return True
     else:
         return False
