@@ -29,9 +29,8 @@ def firstUniqChar(s):
                     #if found delete all instances from the string as well as from the list..
                     #stop the loop at the first alphabet that is not found in the string...
                     #check for its index in the original string
-
-
-
-a = 'aa'
-
-print(firstUniqChar(a))
+###################################################################################
+#                        Leet Code Difficulty Level = Easy                        #  
+#                        Runtime = 46 ms    [ > 96.77%]                           #
+#                        Memory = 11.84 MB   [ > 99.60%]                          #
+################################################################################### 
