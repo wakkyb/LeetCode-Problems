@@ -31,6 +31,6 @@ def firstUniqChar(s):
                     #check for its index in the original string
 ###################################################################################
 #                        Leet Code Difficulty Level = Easy                        #  
-#                        Runtime = 46 ms    [ > 96.77%]                           #
+#                        Runtime = 31 ms    [ > 98.96%]                           #
 #                        Memory = 11.84 MB   [ > 99.60%]                          #
 ################################################################################### 
